@@ -1,6 +1,5 @@
 import ButtonDefault from "../buttons/button-default";
 import { BiSolidMessageRoundedDetail } from "react-icons/bi";
-import { IoIosSearch } from "react-icons/io";
 import { MdNotificationsActive } from "react-icons/md";
 import { IoSearch } from "react-icons/io5";
 

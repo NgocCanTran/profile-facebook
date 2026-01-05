@@ -5,7 +5,6 @@ type CardInfoType = {
 };
 
 import { ReactNode } from "react";
-import { MdAccessTime } from "react-icons/md";
 
 const CardInfo = ({
   classN = "",

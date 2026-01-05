@@ -41,7 +41,7 @@ const Home = () => {
               alt="logo"
               className="w-auto h-12 rounded"
             ></Image>
-            <SearchButton classN={""}></SearchButton>
+            <SearchButton></SearchButton>
           </div>
           <div className="flex gap-15 justify-center ">
             <IconButton classN="">

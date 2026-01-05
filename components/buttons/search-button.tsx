@@ -1,10 +1,6 @@
 import { IoIosSearch } from "react-icons/io";
 
-type SearchButtonType = {
-  classN: string;
-};
-
-const SearchButton = ({ classN, ...props }: SearchButtonType) => {
+const SearchButton = () => {
   const BaseClass = ` flex flex-wrap p-2 rounded-full bg-gray-200`;
   const FormClass = ` flex items-center gap-2 `;
   const InputClass = ` outline-none`;
