@@ -23,12 +23,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" >
-      <body
-        className={`mx-auto min-h-96 max-w-screen-full px-4 py-6 max-w-6xl`}
-      >
-        {children}
-      </body>
+    <html lang="en">
+      <body className={`mx-auto max-w-screen-full`}>{children}</body>
     </html>
   );
 }
