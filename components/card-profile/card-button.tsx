@@ -16,7 +16,7 @@ const CardButton = () => {
       </ButtonDefault>
       <ButtonDefault
         classN={
-          "bg-gray-200 p-1.5 rounded-lg border border-transparent outline-none box-border hover:bg-gray-400 text-black font-semibold"
+          "bg-gray-200 p-1.5 rounded-lg border border-transparent outline-none box-border hover:bg-gray-300 text-black font-semibold"
         }
         text={"Following"}
       >
@@ -24,7 +24,7 @@ const CardButton = () => {
       </ButtonDefault>
       <ButtonDefault
         classN={
-          "bg-gray-200 p-1.5 rounded-lg border border-transparent outline-none box-border hover:bg-gray-400"
+          "bg-gray-200 p-1.5 rounded-lg border border-transparent outline-none box-border hover:bg-gray-300"
         }
         text={"Search"}
       >

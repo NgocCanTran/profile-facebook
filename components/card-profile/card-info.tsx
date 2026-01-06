@@ -13,13 +13,12 @@ const CardInfo = ({
   ...props
 }: CardInfoType) => {
   const baseClass = `flex justify-start gap-3 items-center m-2.5 cursor-pointer`;
-
   const classes = `${baseClass} ${classN}`;
 
   return (
     <div className={classes} {...props}>
       {children}
-      <div className="font-semibold ">{description}</div>
+      <div className="font-semibold text-sm">{description}</div>
     </div>
   );
 };
